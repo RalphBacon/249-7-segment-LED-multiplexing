@@ -8,10 +8,14 @@ Link to video:
 
 I'm using dual 7-segment LED displays in another project, but I figured I could have designed that using less GPIO pins than I did. So I tried out my theory here.  
 
-Now, first things first. You would not usually drive the individual LED segments from an Arduino; it's too many GPIO pins. You would use some extra hardware to do that. However, to multiplex between the digits you would normally need one pin per digit.  
+Now, first things first. You would not usually drive the individual LED segments from an Arduino; it's too many GPIO pins. You would use some extra hardware to do that. But for this demo, we'll do it the easy way! 
 
-Not so here. I use a single GPIO pin and a tiny dual Si4599 MOSFET chip that allows me to alternate between the digits just by bring the GPIO pin high and low. Easy peasy, lemon squeezy.  
+However, to multiplex between the digits (watch the video to understand what that means) you would normally need one pin _**per digit**_.  
 
+Not so here. I use a _**single GPIO pin**_ and a tiny dual Si4599 MOSFET chip that allows me to alternate between the digits just by bring the GPIO pin high and low. Easy peasy, lemon squeezy. I just love this little chip. A pity it's so hard to find these days (in 2022).  
+
+
+### HARDWARE
 Dual 7-segment LED display, 0.28"  
 https://s.click.aliexpress.com/e/_DBvpDQL
 
