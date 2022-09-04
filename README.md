@@ -27,7 +27,12 @@ If you can't find the dual MOSFET you can either:
 
 ### HARDWARE
 Dual 7-segment LED display, 0.28"  
+![image](https://user-images.githubusercontent.com/20911308/188306973-531c16a6-07c6-435c-bad3-fcf3767b15f0.png)  
 https://s.click.aliexpress.com/e/_DBvpDQL
+
+Si4599 Break Out Board (Bob), really expensive these days  
+![image](https://user-images.githubusercontent.com/20911308/188306930-4553f41a-194e-4698-b164-d11907cb8b5d.png)  
+https://www.banggood.com/custlink/D3GCRqKQu9
 
 ### MORE  
 
