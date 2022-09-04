@@ -26,15 +26,23 @@ If you can't find the dual MOSFET you can either:
 **Remember to use a current limiting resistor in all cases, about 220Ω will be fine**  
 
 ### HARDWARE
-Dual 7-segment LED display, 0.28"  
+**Dual 7-segment** LED display, 0.28"  
 ![image](https://user-images.githubusercontent.com/20911308/188306973-531c16a6-07c6-435c-bad3-fcf3767b15f0.png)  
 https://s.click.aliexpress.com/e/_DBvpDQL
 
-Si4599 Break Out Board (Bob), really expensive these days  
+**Si4599** Break Out Board (Bob), really expensive these days 🤨🤷  
 ![image](https://user-images.githubusercontent.com/20911308/188306930-4553f41a-194e-4698-b164-d11907cb8b5d.png)  
 https://www.banggood.com/custlink/D3GCRqKQu9
 
+**AO4606** Dual Mosfet drop-in equivalent to the Si4599, much cheaper too  
+![image](https://user-images.githubusercontent.com/20911308/188307238-b8340feb-3f29-4676-beff-9b7ce1758b93.png)  
+10PCS/LOT 4606 AO4606 MT4606 SOP-8 new and original  
+https://s.click.aliexpress.com/e/_DkPliaP
+
+
+---
 ### MORE  
+Remember that circuit diagrams etc are right here in this GitHub!  
 
 Useful or interesting video? You can support my channel:  
 Buy Me A Coffee! https://www.buymeacoffee.com/ralphbacon  
