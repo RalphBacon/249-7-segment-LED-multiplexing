@@ -14,6 +14,8 @@ However, to multiplex between the digits (watch the video to understand what tha
 
 Not so here. I use a _**single GPIO pin**_ and a tiny dual Si4599 MOSFET chip that allows me to alternate between the digits just by bring the GPIO pin high and low. Easy peasy, lemon squeezy. I just love this little chip. A pity it's so hard to find these days (in 2022).  
 
+Yes, you _could_ try using the Arduino's GPIO pin directly to source/sink the current but that would involve one Common Cathode and one Common Anode 7-degment digit. All a bit complex, to be honest. Not to mention that you can only source (or sink) ~20mA (40mA absolute max) per pin, so watch out!  
+
 If you can't find the dual MOSFET you can either:
 
 * use two discrete MOSFETs, one N-channel, one P-channel  
