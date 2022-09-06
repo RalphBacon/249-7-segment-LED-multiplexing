@@ -6,7 +6,7 @@ Link to video:
 
 [![JLCPCB-Purple](https://user-images.githubusercontent.com/20911308/159024530-3e083ca1-fea4-4ba9-97d3-a3af3fb979d2.png)](https://www.jlcpcb.com/cem)  
 
-I'm using dual 7-segment LED displays in another project, but I figured I could have designed that using less GPIO pins than I did. So I tried out my theory here.  
+I'm using dual 7-segment LED displays in another project, but I figured I could have designed that using fewer GPIO pins than I did. So I tried out my theory here.  
 
 Now, first things first. You would not usually drive the individual LED segments from an Arduino; it's too many GPIO pins. You would use some extra hardware to do that. But for this demo, we'll do it the easy way! 
 
